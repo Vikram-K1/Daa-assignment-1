@@ -40,6 +40,6 @@ We can observe that last element is excluded from the sum.
 We can also observe that these extreme negative elements will never be included in subarray as long as there is one positive element present in whole array, as they will always bring down the total max sum.
 Positive extreme elements are included if they have significant magnitude so that it may contribute to maximum sum.
 
-In the first example, we can see the first element wasn't included because of its neighbour negative elements.
+In the first example, we can see the first element wasn't included because of negative elements near it and due to its small magnitude.
 
 ![image](https://user-images.githubusercontent.com/113958925/191564411-6a9daf2a-2da8-48fc-85b3-b970fb8da5be.png)
